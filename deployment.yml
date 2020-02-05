@@ -12,8 +12,8 @@ spec:
         app: hello-world
     spec:
       containers:
-      - image: golfapipol/hello-world:1.0.0-SNAPSHOT
-        name: hello-world
+      - name: hello-world
+        image: golfapipol/hello-world:1.0.0-SNAPSHOT
         ports:
         - containerPort: 3000
         env:
