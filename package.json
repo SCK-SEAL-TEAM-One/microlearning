@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/SCK-SEAL-TEAM-One/release-versioning-microlearning/issues"
   },
-  "homepage": "https://github.com/SCK-SEAL-TEAM-One/release-versioning-microlearning#readme"
+  "homepage": "https://github.com/SCK-SEAL-TEAM-One/release-versioning-microlearning#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
