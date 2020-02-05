@@ -1,0 +1,21 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  labels:
+    app: hello-world
+  name: hello-world
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: hello-world
+    spec:
+      containers:
+      - name: hello-world
+        image: golfapipol/hello-world:1.0.0-CANDIDATE-ALPHA
+        ports:
+        - containerPort: 3000
+        env:
+        - name: ENV
+          value: sit
