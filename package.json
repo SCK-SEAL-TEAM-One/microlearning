@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/SCK-SEAL-TEAM-One/release-versioning-microlearning#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.18.2"
   }
 }
